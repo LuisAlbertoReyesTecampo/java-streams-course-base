@@ -21,7 +21,7 @@ public class Lecture8 {
 
   @Test
   public void groupingAndCounting() throws Exception {
-    ArrayList<String> names = Lists
+    /*ArrayList<String> names = Lists
         .newArrayList(
             "John",
             "John",
@@ -32,7 +32,7 @@ public class Lecture8 {
             "Vincent",
             "Alex",
             "Alex"
-        );
+        );*/
 
 
   }

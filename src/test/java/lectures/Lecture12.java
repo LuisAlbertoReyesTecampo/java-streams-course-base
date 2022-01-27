@@ -10,11 +10,11 @@ import org.junit.Test;
 public class Lecture12 {
   @Test
   public void understandingCollect() throws Exception {
-    List<String> emails = MockData.getPeople()
+    /*List<String> emails = MockData.getPeople()
         .stream()
         .map(Person::getEmail)
         .collect(Collectors.toList());
 
-    emails.forEach(System.out::println);
+    emails.forEach(System.out::println);*/
   }
 }
