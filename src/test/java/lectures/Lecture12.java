@@ -10,11 +10,20 @@ import org.junit.Test;
 public class Lecture12 {
   @Test
   public void understandingCollect() throws Exception {
-    /*List<String> emails = MockData.getPeople()
+    List<String> emails = MockData.getPeople()
         .stream()
         .map(Person::getEmail)
-        .collect(Collectors.toList());
+            //Mehtod references
+            .collect(ArrayList::new,
+                    ArrayList::add,
+                    ArrayList::addAll);
+            //Lambda function
+            /*.collect(() -> new ArrayList<String>(),
+                    ((list, element) -> list.add(element)),
+                    (list,list2) -> list.addAll(list2));*/
 
-    emails.forEach(System.out::println);*/
+        //.collect(Collectors.toList());
+
+    emails.forEach(System.out::println);
   }
 }
